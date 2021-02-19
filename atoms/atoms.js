@@ -1,22 +1,5 @@
 import { atom, selectorFamily } from 'recoil';
 
-export const repos = atom({
-    key: "repos",
-    default:{
-        daily: [],
-        weekly: [],
-    }, 
-});
-
-export const view = atom({
-    key:"view",
-    default:"daily",
-});
-
-
-
-
-//nr
 
 export const listPicAtom = atom({
     key: "listPicAtom",

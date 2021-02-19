@@ -14,8 +14,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to GrapheneDB!
         </h1>
-        <Link href="/index-async">
-            <a>async</a>
+        <Link href="/index-img">
+            <a>img</a>
         </Link>
 
       </main>
