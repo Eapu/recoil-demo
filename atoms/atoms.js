@@ -6,22 +6,22 @@ export const listPicAtom = atom({
     default: [
   
       {
-        name:'some name0',
+        name:'pic0',
         url: 'https://elenacube.s3-eu-west-1.amazonaws.com/media/ywmqs36nsjg21-min.jpg',
         selected: false
       },
       {
-        name:'some name1',
+        name:'pic1',
         url: 'https://elenacube.s3-eu-west-1.amazonaws.com/media/xbkxqgaiyus41.jpg',
         selected: false
       },
       {
-        name:'some name2',
+        name:'pic2',
         url: 'https://elenacube.s3-eu-west-1.amazonaws.com/media/o0038plfs2n31.jpg',
         selected: false
       },
       {
-        name:'some name3',
+        name:'pic3',
         url: 'https://elenacube.s3-eu-west-1.amazonaws.com/media/nvfde0q2jrl11.jpg',
         selected: false
       },

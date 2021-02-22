@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { listPicAtom, listPicItem } from '../atoms/atoms'
 import { useRecoilState, useRecoilValue } from "recoil";
-import { Image } from 'semantic-ui-react'
+import { Image, Radio} from 'semantic-ui-react'
 import { GdbMessage } from './GdbMessage'
 
 
@@ -35,7 +35,7 @@ const SelectedItem = memo(({ index }) => {
       </>
     );
   });
-  
+
 
 const App = () => {
   const listPicAtomValue = useRecoilValue(listPicAtom);
@@ -63,7 +63,9 @@ const App = () => {
                 <></>
                 );
             })}
-            
+           
+
+
             <GdbMessage />
             </div>
         </div>

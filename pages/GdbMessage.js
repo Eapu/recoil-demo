@@ -5,15 +5,19 @@ import { listPicAtom, listPicItem } from '../atoms/atoms'
 
 const NameItem = ({ index }) => { //
   const [NameItemValue] = useRecoilState(listPicItem(index));
+  
   return (
-
-    <Message warning> 
-          {NameItemValue.name}  
-    </Message>    
+    <Message
+      success
+      icon='thumbs up'
+      header={NameItemValue.name}  
+      content='name of pic.'
+      />
   );
 };
 
 export const GdbMessage = () => {
+  
   const listPicAtomValue = useRecoilValue(listPicAtom);
   return (
     <>
